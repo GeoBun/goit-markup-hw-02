@@ -1,0 +1,63 @@
+/* цвет текста 
+        #212121
+         #757575
+          #FFFFFF
+          #2196F3 */
+          /* футер бекграунд #2F303A */
+body {  
+     background-color: #fff;
+     color: #212121;
+     font-family: 'Raleway', sans-serif;
+     font-family: 'Roboto', sans-serif;
+    }
+    .list {
+        list-style: none;
+    }
+    .page-header {
+
+    }
+    .logo{ 
+    font-weight: bold;
+    }
+    .logo-web{
+        color: #2196F3 ;
+    }
+    .logo-studio{
+        color:  #212121;
+    }
+    .site-nav {
+        color: #212121;
+    }
+    .site-nav-link{
+        color: #2196F3;
+    }
+    .address-link{
+        color:  #757575;
+    }
+     /* buttons */
+     .promo-btn :hover,
+     .promo-btn :focus{
+        background-color: #2196F3
+     }
+     .btn{
+        background: #2196F3
+     }
+     /* projects */
+     .projects{
+         background-color: #FFFFFF;
+     }
+     .projects-text{
+         color: #757575;
+     }
+     .footer{
+         background-color: #2F303A;
+     }
+     .logo-studio-footer{
+         color: #FFFFFF;
+     }
+     .footer-address{
+        color: rgba(255, 255, 255, 0.6);
+     }
+     .footer-address-place{
+         color: #FFFFFF;
+     }
