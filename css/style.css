@@ -15,7 +15,6 @@
 body {  
     background-color: var(--primery-white-color );
     color: #212121;
-    font-family: 'Roboto' 400 500 700 900 ;
     font-weight: 500;
     font-size: 14px;
     }
@@ -50,6 +49,15 @@ body {
         font-size: 26px;
         line-height: 31px;
     }
+
+    .studio-foot{
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 31px;
+    }
+
     .site-nav {
         color: var(--title-text-color);
     }
@@ -69,23 +77,33 @@ body {
     }
 
      /* buttons */
-     .btn{
+
+    .main-btn{
         cursor: pointer;
         font-weight: bold;
         font-size: 16px;
         line-height: 30px;
-     }
-     .btn :hover,
-     .btn :focus{
         color: var(--primery-white-color);
         background-color: var(--accent-color)
-     }
+    }
+
+    .btn{
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .btn :hover,
+    .btn :focus{
+        color: var(--primery-white-color);
+        background-color: var(--accent-color)
+    }
 
      /* projects */
 
-     .hiro{
+    .hiro{
          background-color:var(--primery-bg-color) ;
-     }
+    }
      .hiro-title{
          color: var(--primery-white-color);
         font-weight: 900;
@@ -93,22 +111,18 @@ body {
         line-height: 60px
     }
 
-     .projects{
+    .projects{
          background-color: var(--primery-white-color);
-     }
-     .foot{
+    }
+
+    .foot{
          background-color: #2F303A;
-     }
-     .studio-foot{
-        color: #FFFFFF;
-        font-family: Raleway;
-        font-weight: bold;
-        font-size: 26px;
-        line-height: 31px;
-     }
-     .foot-address{
+    }
+
+    .foot-address{
         color: rgba(255, 255, 255, 0.6);
-     }
-     .foot-address .place{
+    }
+
+    .foot-address .place{
          color: #FFFFFF;
-     }
+    }
