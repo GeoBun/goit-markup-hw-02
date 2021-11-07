@@ -8,13 +8,14 @@
 :root {
     --primary-text-color: #757575 ;
     --title-text-color : #212121;
-    --accent-color :  #2196F3;
+    --accent-color :  #2196F3; 
     --primery-white-color :  #FFFFFF;
     --primery-bg-color : #2F303A;
     --address-color: rgba(255, 255, 255, 0.6);
+    --hiro-btn-hover-color : #188CE8;
 }
 body {  
-    font-family: 'Roboto',;
+    font-family: 'Roboto', 400, 500, 700, 900, sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
     background-color: var(--primery-white-color );
@@ -106,6 +107,11 @@ body {
         letter-spacing: 0.06em;
         color: var(--primery-white-color);
         background-color: var(--accent-color)
+    }
+
+    .hiro .hiro-btn :hover,
+    .hiro .hiro-btn :focus{
+        background-color: var(--hiro-btn-hover-color);
     }
 
     .btn{
