@@ -191,5 +191,6 @@ body {
     }
 
     .contact {
+        font-style: normal;
         color: var(--foot-address-color);
     }
